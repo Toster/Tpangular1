@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { GraphcourbesComponent } from './graphcourbes/graphcourbes.component';
+import { TableauventeComponent } from './tableauvente/tableauvente.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     HeaderComponent,
     FooterComponent,
     DashboardComponent,
-    SidebarComponent
+    SidebarComponent,
+    GraphcourbesComponent,
+    TableauventeComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
