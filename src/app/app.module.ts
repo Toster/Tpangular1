@@ -11,6 +11,16 @@ import { GraphcourbesComponent } from './graphcourbes/graphcourbes.component';
 import { TableauventeComponent } from './tableauvente/tableauvente.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { VentecommandepanierComponent } from './ventecommandepanier/ventecommandepanier.component';
+import { PagecommandesComponent } from './pagecommandes/pagecommandes.component';
+import { PageproduitsComponent } from './pageproduits/pageproduits.component';
+import { PageclientsComponent } from './pageclients/pageclients.component';
+import { PagerapportsComponent } from './pagerapports/pagerapports.component';
+import { PageintegrationsComponent } from './pageintegrations/pageintegrations.component';
+import { PdfrapportsComponent } from './pdfrapports/pdfrapports.component';
+import { PageaccueilComponent } from './pageaccueil/pageaccueil.component';
+import { PageprixComponent } from './pageprix/pageprix.component';
+import { PageaideComponent } from './pageaide/pageaide.component';
+import { PageaproposComponent } from './pageapropos/pageapropos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +32,17 @@ import { VentecommandepanierComponent } from './ventecommandepanier/ventecommand
     GraphcourbesComponent,
     TableauventeComponent,
     NotFoundComponent,
-    VentecommandepanierComponent
+    VentecommandepanierComponent,
+    PagecommandesComponent,
+    PageproduitsComponent,
+    PageclientsComponent,
+    PagerapportsComponent,
+    PageintegrationsComponent,
+    PdfrapportsComponent,
+    PageaccueilComponent,
+    PageprixComponent,
+    PageaideComponent,
+    PageaproposComponent
   ],
   imports: [
     BrowserModule,
