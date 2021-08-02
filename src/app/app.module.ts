@@ -10,6 +10,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { GraphcourbesComponent } from './graphcourbes/graphcourbes.component';
 import { TableauventeComponent } from './tableauvente/tableauvente.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { VentecommandepanierComponent } from './ventecommandepanier/ventecommandepanier.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     SidebarComponent,
     GraphcourbesComponent,
     TableauventeComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    VentecommandepanierComponent
   ],
   imports: [
     BrowserModule,

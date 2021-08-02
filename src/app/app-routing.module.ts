@@ -4,13 +4,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
-  {path: "", component:DashboardComponent},
-  {path: "not-found", component:NotFoundComponent},
-  {path: "**", redirectTo:"not-found"}
+  { path: '', component: DashboardComponent },
+  { path: 'not-found', component: NotFoundComponent },
+  { path: '**', redirectTo: 'not-found' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
